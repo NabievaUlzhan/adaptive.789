@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+:root{
+    --bg-color: #F6F6F6;
+    --color-title: #070707;
+    --font-a: 'Gilroy-Medium', sans-serif;
+    --font-title: 'Gilroy-Bold', sans-serif;
+}
+.container{
+    max-width: 1445px;
+    height: 2253px;
+    background: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page{
+    max-width: 936px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.online{
+    height: 577px;
+    margin-bottom: 99px;
+}
+.reebok{
+    height: 584px;
+}
+.margin{
+    margin-bottom: 104px;
+}
+.margin2{
+    margin-bottom: 102px;
+}
+h1{
+    margin-top: 115px;
+    margin-bottom: 45px;
+    color: var(--color-title);
+    font-family: var(--font-title);
+    font-size: 34px;
+    font-weight: 400;
+    line-height: normal;
+}
+a{
+    color: var(--color-title);
+    font-family: var(--font-a);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+@media screen and (max-width:375px) {
+    .container{
+        margin: 81px auto;
+    }
+    .h1{
+        margin-bottom: 65px;
+    }
+    .page{
+        width: 316px;
+    }
+    .online{
+        
+        height: 226px;
+        margin-bottom: 78px;
+    }
+    .margin{
+        margin-bottom: 78px;
+    }
+    .reebok{
+        height: 233px;
+    }
+    .online__img{
+        width: 316px;
+        height: 171px;
+    }
+    .reebok__img{
+        width: 316px;
+        height: 176px;
+    }
+}
